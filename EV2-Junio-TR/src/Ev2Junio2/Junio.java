@@ -15,4 +15,9 @@ public class Junio {
 		}
 		return resultado;
 	}
+
+	public static boolean junio(int i) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

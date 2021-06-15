@@ -1,5 +1,7 @@
 package Ev2Junio2;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
@@ -28,7 +30,8 @@ class JunioTest {
 
 	@Test
 	void testMetodoTR() {
-		fail("Not yet implemented");
+		assertTrue ("Probando 5", Ev2Junio2.Junio.junio(5));
+		assertFalse ("Probando 55", Ev2Junio2.Junio.junio(55));
 	}
 
 }
